@@ -1,0 +1,17 @@
+#Assigning elements to different lists
+list1=[1,2,3]
+list1.append(4.5)
+print(list1)
+list1.insert(1,"hey")
+print(list1)
+
+#Accessing elements from a tuple
+tuple1=(1,2,3,"hey",5.0)
+tuple1[0]
+tuple1[3]
+len(tuple1)
+
+#deleting diffeent dictionary elements
+dict1={"hi":"hello","you":"fine","oh":"yes"}
+del dict1["you"]
+print(dict1)
